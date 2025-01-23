@@ -25,7 +25,7 @@ if uploaded_file is not None:
 
   docs = [Document(page_content = text)]
 
-  api_key = ""
+  api_key = "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"
 
   llm = ChatGroq(groq_api_key = api_key, model_name = 'llama-3.1-70b-versatile', temperature = 0.2, top_p = 0.2)
 
